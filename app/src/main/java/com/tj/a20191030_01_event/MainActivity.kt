@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("코틀린 기초", "$name 고맙지 뭐야~")
         }
 
+        // 커밋 2번용 주석
         for (i in 0..5) {
             Log.d("코틀린 기초", "$i")
         }
