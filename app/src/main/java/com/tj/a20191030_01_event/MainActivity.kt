@@ -70,7 +70,14 @@ class MainActivity : AppCompatActivity() {
             !in intList -> Log.d("코틀린 기초", "a가 intList에 불포함")
         }
 
+        // 커밋 한번용 주석
+        for (name in stringList) {
+            Log.d("코틀린 기초", "$name 고맙지 뭐야~")
+        }
 
+        for (i in 0..5) {
+            Log.d("코틀린 기초", "$i")
+        }
     }
 
 }
